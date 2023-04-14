@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculatrice</title>
+</head>
+<body>
+   <h1>Calculatrice</h1>
+    <form action="Formulaire_Servlet" method="GET">
+      <label for="operand1">Opérande 1:</label>
+      <input type="number" id="operand1" name="operand1" required><br>
+  <label for="operand2">Opérande 2:</label>
+      <input type="number" id="operand2" name="operand2" required><br>
+      <label for="operation">Opération:</label>
+      <input type="radio" name="operation" value="addition"> addition
+      <input type="radio" name="operation" value="soustraction"> soustraction 
+<input type="radio" name="operation" value="multiplication"> multiplication
+  <input type="radio" value="division"> division <br>
+ 
+ <input type="submit" value="Envoyer">
+ <input type="submit" value="Retablir">
+ </form>
+</body>
+</html>
